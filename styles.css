@@ -30,7 +30,7 @@ header {
 .page-title {
     text-transform: capitalize;
     display: flex;
-    margin-left: auto;    
+    margin-left: auto;
     font-weight: 300;
     font-family: 'Segoe UI', sans-serif;
     font-size: 32px;
@@ -99,21 +99,6 @@ header {
     width: 100%;
 }
 
-.select-group i {
-    position: absolute;
-    right: 6px;
-    top: 8px;
-    font-size: 16px;
-}
-
-select {
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    appearance: none;
-    padding-left: 8px;
-    padding-right: 28px;
-}
-
 .ms-input {
     border: 1px solid #8A8886;
     border-radius: 2px;
@@ -124,6 +109,8 @@ select {
     padding: 0 8px;
     outline: 0px;
     box-sizing: border-box;
+    background: transparent;
+    z-index: 2;
 }
 
 .ms-input:hover,
@@ -139,6 +126,22 @@ select {
 .ms-input:focus i,
 .ms-input:active i {
     color: #0078D4;
+}
+
+.select-group i {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    font-size: 16px;
+}
+
+select.ms-input {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    padding-top: 2px;
+    padding-left: 8px;
+    padding-right: 28px;
 }
 
 textarea.ms-input {
