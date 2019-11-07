@@ -2,433 +2,433 @@
     {
         "Area": "SUPORTE",
         "Categoria": "Categoria 1",
-        "Serviços": "Dados de Clientes",
-        "Classificação": "Compartilhar Acesso - LastPass",
+        "Servicos": "Dados de Clientes",
+        "Classificacao": "Compartilhar Acesso - LastPass",
         "Requisitos": "Informar o projeto que está trabalhando e uma estimativa de duração.",
-        "SLA DESEJADO": "1"
+        "SLA_DESEJADO": "1"
     },
     {
         "Area": "SUPORTE",
         "Categoria": "Categoria 1",
-        "Serviços": "Dados de Clientes",
-        "Classificação": "Remover Acesso  - LastPass",
+        "Servicos": "Dados de Clientes",
+        "Classificacao": "Remover Acesso  - LastPass",
         "Requisitos": "Sem requisitos",
-        "SLA DESEJADO": "1"
+        "SLA_DESEJADO": "1"
     },
     {
         "Area": "SUPORTE",
         "Categoria": "Categoria 1",
-        "Serviços": "Pastas",
-        "Classificação": "Conceder acesso a unidade(pasta) de rede",
+        "Servicos": "Pastas",
+        "Classificacao": "Conceder acesso a unidade(pasta) de rede",
         "Requisitos": "Informe o motivo.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "SUPORTE",
         "Categoria": "Categoria 1",
-        "Serviços": "Pastas",
-        "Classificação": "Outros",
+        "Servicos": "Pastas",
+        "Classificacao": "Outros",
         "Requisitos": "Informe sua necessidade com a maior quantidade de detalhes possíveis.",
-        "SLA DESEJADO": "8"
+        "SLA_DESEJADO": "8"
     },
     {
         "Area": "SUPORTE",
         "Categoria": "Categoria 1",
-        "Serviços": "E-mail",
-        "Classificação": "Criação de conta office 365",
+        "Servicos": "E-mail",
+        "Classificacao": "Criação de conta office 365",
         "Requisitos": "Informe os dados: Nome, Sobrenome.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "SUPORTE",
         "Categoria": "Categoria 1",
-        "Serviços": "E-mail",
-        "Classificação": "Configurar caixa de e-mail compartilhada",
+        "Servicos": "E-mail",
+        "Classificacao": "Configurar caixa de e-mail compartilhada",
         "Requisitos": "Informe a necessidade e o motivo.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "SUPORTE",
         "Categoria": "Categoria 2",
-        "Serviços": "Dados de Clientes",
-        "Classificação": "Compartilhar Acesso - LastPass",
+        "Servicos": "Dados de Clientes",
+        "Classificacao": "Compartilhar Acesso - LastPass",
         "Requisitos": "Informar o projeto que está trabalhando e uma estimativa de duração.",
-        "SLA DESEJADO": "1"
+        "SLA_DESEJADO": "1"
     },
     {
         "Area": "SUPORTE",
         "Categoria": "Categoria 2",
-        "Serviços": "Dados de Clientes",
-        "Classificação": "Remover Acesso  - LastPass",
+        "Servicos": "Dados de Clientes",
+        "Classificacao": "Remover Acesso  - LastPass",
         "Requisitos": "Sem requisitos",
-        "SLA DESEJADO": "1"
+        "SLA_DESEJADO": "1"
     },
     {
         "Area": "SUPORTE",
         "Categoria": "Categoria 2",
-        "Serviços": "Pastas",
-        "Classificação": "Conceder acesso a unidade(pasta) de rede",
+        "Servicos": "Pastas",
+        "Classificacao": "Conceder acesso a unidade(pasta) de rede",
         "Requisitos": "Informe o motivo.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "SUPORTE",
         "Categoria": "Categoria 2",
-        "Serviços": "Pastas",
-        "Classificação": "Outros",
+        "Servicos": "Pastas",
+        "Classificacao": "Outros",
         "Requisitos": "Informe sua necessidade com a maior quantidade de detalhes possíveis.",
-        "SLA DESEJADO": "8"
+        "SLA_DESEJADO": "8"
     },
     {
         "Area": "SUPORTE",
         "Categoria": "Categoria 2",
-        "Serviços": "E-mail",
-        "Classificação": "Criação de conta office 365",
+        "Servicos": "E-mail",
+        "Classificacao": "Criação de conta office 365",
         "Requisitos": "Informe os dados: Nome, Sobrenome.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "SUPORTE",
         "Categoria": "Categoria 2",
-        "Serviços": "E-mail",
-        "Classificação": "Configurar caixa de e-mail compartilhada",
+        "Servicos": "E-mail",
+        "Classificacao": "Configurar caixa de e-mail compartilhada",
         "Requisitos": "Informe a necessidade e o motivo.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "SUPORTE",
         "Categoria": "Categoria 3",
-        "Serviços": "Dados de Clientes",
-        "Classificação": "Compartilhar Acesso - LastPass",
+        "Servicos": "Dados de Clientes",
+        "Classificacao": "Compartilhar Acesso - LastPass",
         "Requisitos": "Informar o projeto que está trabalhando e uma estimativa de duração.",
-        "SLA DESEJADO": "1"
+        "SLA_DESEJADO": "1"
     },
     {
         "Area": "SUPORTE",
         "Categoria": "Categoria 3",
-        "Serviços": "Dados de Clientes",
-        "Classificação": "Remover Acesso  - LastPass",
+        "Servicos": "Dados de Clientes",
+        "Classificacao": "Remover Acesso  - LastPass",
         "Requisitos": "Sem requisitos",
-        "SLA DESEJADO": "1"
+        "SLA_DESEJADO": "1"
     },
     {
         "Area": "SUPORTE",
         "Categoria": "Categoria 3",
-        "Serviços": "Pastas",
-        "Classificação": "Conceder acesso a unidade(pasta) de rede",
+        "Servicos": "Pastas",
+        "Classificacao": "Conceder acesso a unidade(pasta) de rede",
         "Requisitos": "Informe o motivo.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "SUPORTE",
         "Categoria": "Categoria 3",
-        "Serviços": "Pastas",
-        "Classificação": "Outros",
+        "Servicos": "Pastas",
+        "Classificacao": "Outros",
         "Requisitos": "Informe sua necessidade com a maior quantidade de detalhes possíveis.",
-        "SLA DESEJADO": "8"
+        "SLA_DESEJADO": "8"
     },
     {
         "Area": "SUPORTE",
         "Categoria": "Categoria 3",
-        "Serviços": "E-mail",
-        "Classificação": "Criação de conta office 365",
+        "Servicos": "E-mail",
+        "Classificacao": "Criação de conta office 365",
         "Requisitos": "Informe os dados: Nome, Sobrenome.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "SUPORTE",
         "Categoria": "Categoria 3",
-        "Serviços": "E-mail",
-        "Classificação": "Configurar caixa de e-mail compartilhada",
+        "Servicos": "E-mail",
+        "Classificacao": "Configurar caixa de e-mail compartilhada",
         "Requisitos": "Informe a necessidade e o motivo.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "FINANCEIRO",
         "Categoria": "Categoria 1",
-        "Serviços": "Dados de Clientes",
-        "Classificação": "Compartilhar Acesso - LastPass",
+        "Servicos": "Dados de Clientes",
+        "Classificacao": "Compartilhar Acesso - LastPass",
         "Requisitos": "Informar o projeto que está trabalhando e uma estimativa de duração.",
-        "SLA DESEJADO": "1"
+        "SLA_DESEJADO": "1"
     },
     {
         "Area": "FINANCEIRO",
         "Categoria": "Categoria 1",
-        "Serviços": "Dados de Clientes",
-        "Classificação": "Remover Acesso  - LastPass",
+        "Servicos": "Dados de Clientes",
+        "Classificacao": "Remover Acesso  - LastPass",
         "Requisitos": "Sem requisitos",
-        "SLA DESEJADO": "1"
+        "SLA_DESEJADO": "1"
     },
     {
         "Area": "FINANCEIRO",
         "Categoria": "Categoria 1",
-        "Serviços": "Pastas",
-        "Classificação": "Conceder acesso a unidade(pasta) de rede",
+        "Servicos": "Pastas",
+        "Classificacao": "Conceder acesso a unidade(pasta) de rede",
         "Requisitos": "Informe o motivo.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "FINANCEIRO",
         "Categoria": "Categoria 1",
-        "Serviços": "Pastas",
-        "Classificação": "Outros",
+        "Servicos": "Pastas",
+        "Classificacao": "Outros",
         "Requisitos": "Informe sua necessidade com a maior quantidade de detalhes possíveis.",
-        "SLA DESEJADO": "8"
+        "SLA_DESEJADO": "8"
     },
     {
         "Area": "FINANCEIRO",
         "Categoria": "Categoria 1",
-        "Serviços": "E-mail",
-        "Classificação": "Criação de conta office 365",
+        "Servicos": "E-mail",
+        "Classificacao": "Criação de conta office 365",
         "Requisitos": "Informe os dados: Nome, Sobrenome.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "FINANCEIRO",
         "Categoria": "Categoria 1",
-        "Serviços": "E-mail",
-        "Classificação": "Configurar caixa de e-mail compartilhada",
+        "Servicos": "E-mail",
+        "Classificacao": "Configurar caixa de e-mail compartilhada",
         "Requisitos": "Informe a necessidade e o motivo.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "FINANCEIRO",
         "Categoria": "Categoria 2",
-        "Serviços": "Dados de Clientes",
-        "Classificação": "Compartilhar Acesso - LastPass",
+        "Servicos": "Dados de Clientes",
+        "Classificacao": "Compartilhar Acesso - LastPass",
         "Requisitos": "Informar o projeto que está trabalhando e uma estimativa de duração.",
-        "SLA DESEJADO": "1"
+        "SLA_DESEJADO": "1"
     },
     {
         "Area": "FINANCEIRO",
         "Categoria": "Categoria 2",
-        "Serviços": "Dados de Clientes",
-        "Classificação": "Remover Acesso  - LastPass",
+        "Servicos": "Dados de Clientes",
+        "Classificacao": "Remover Acesso  - LastPass",
         "Requisitos": "Sem requisitos",
-        "SLA DESEJADO": "1"
+        "SLA_DESEJADO": "1"
     },
     {
         "Area": "FINANCEIRO",
         "Categoria": "Categoria 2",
-        "Serviços": "Pastas",
-        "Classificação": "Conceder acesso a unidade(pasta) de rede",
+        "Servicos": "Pastas",
+        "Classificacao": "Conceder acesso a unidade(pasta) de rede",
         "Requisitos": "Informe o motivo.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "FINANCEIRO",
         "Categoria": "Categoria 2",
-        "Serviços": "Pastas",
-        "Classificação": "Outros",
+        "Servicos": "Pastas",
+        "Classificacao": "Outros",
         "Requisitos": "Informe sua necessidade com a maior quantidade de detalhes possíveis.",
-        "SLA DESEJADO": "8"
+        "SLA_DESEJADO": "8"
     },
     {
         "Area": "FINANCEIRO",
         "Categoria": "Categoria 2",
-        "Serviços": "E-mail",
-        "Classificação": "Criação de conta office 365",
+        "Servicos": "E-mail",
+        "Classificacao": "Criação de conta office 365",
         "Requisitos": "Informe os dados: Nome, Sobrenome.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "FINANCEIRO",
         "Categoria": "Categoria 2",
-        "Serviços": "E-mail",
-        "Classificação": "Configurar caixa de e-mail compartilhada",
+        "Servicos": "E-mail",
+        "Classificacao": "Configurar caixa de e-mail compartilhada",
         "Requisitos": "Informe a necessidade e o motivo.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "FINANCEIRO",
         "Categoria": "Categoria 3",
-        "Serviços": "Dados de Clientes",
-        "Classificação": "Compartilhar Acesso - LastPass",
+        "Servicos": "Dados de Clientes",
+        "Classificacao": "Compartilhar Acesso - LastPass",
         "Requisitos": "Informar o projeto que está trabalhando e uma estimativa de duração.",
-        "SLA DESEJADO": "1"
+        "SLA_DESEJADO": "1"
     },
     {
         "Area": "FINANCEIRO",
         "Categoria": "Categoria 3",
-        "Serviços": "Dados de Clientes",
-        "Classificação": "Remover Acesso  - LastPass",
+        "Servicos": "Dados de Clientes",
+        "Classificacao": "Remover Acesso  - LastPass",
         "Requisitos": "Sem requisitos",
-        "SLA DESEJADO": "1"
+        "SLA_DESEJADO": "1"
     },
     {
         "Area": "FINANCEIRO",
         "Categoria": "Categoria 3",
-        "Serviços": "Pastas",
-        "Classificação": "Conceder acesso a unidade(pasta) de rede",
+        "Servicos": "Pastas",
+        "Classificacao": "Conceder acesso a unidade(pasta) de rede",
         "Requisitos": "Informe o motivo.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "FINANCEIRO",
         "Categoria": "Categoria 3",
-        "Serviços": "Pastas",
-        "Classificação": "Outros",
+        "Servicos": "Pastas",
+        "Classificacao": "Outros",
         "Requisitos": "Informe sua necessidade com a maior quantidade de detalhes possíveis.",
-        "SLA DESEJADO": "8"
+        "SLA_DESEJADO": "8"
     },
     {
         "Area": "FINANCEIRO",
         "Categoria": "Categoria 3",
-        "Serviços": "E-mail",
-        "Classificação": "Criação de conta office 365",
+        "Servicos": "E-mail",
+        "Classificacao": "Criação de conta office 365",
         "Requisitos": "Informe os dados: Nome, Sobrenome.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "FINANCEIRO",
         "Categoria": "Categoria 3",
-        "Serviços": "E-mail",
-        "Classificação": "Configurar caixa de e-mail compartilhada",
+        "Servicos": "E-mail",
+        "Classificacao": "Configurar caixa de e-mail compartilhada",
         "Requisitos": "Informe a necessidade e o motivo.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "ADMINISTRAÇÃO",
         "Categoria": "Categoria 1",
-        "Serviços": "Dados de Clientes",
-        "Classificação": "Compartilhar Acesso - LastPass",
+        "Servicos": "Dados de Clientes",
+        "Classificacao": "Compartilhar Acesso - LastPass",
         "Requisitos": "Informar o projeto que está trabalhando e uma estimativa de duração.",
-        "SLA DESEJADO": "1"
+        "SLA_DESEJADO": "1"
     },
     {
         "Area": "ADMINISTRAÇÃO",
         "Categoria": "Categoria 1",
-        "Serviços": "Dados de Clientes",
-        "Classificação": "Remover Acesso  - LastPass",
+        "Servicos": "Dados de Clientes",
+        "Classificacao": "Remover Acesso  - LastPass",
         "Requisitos": "Sem requisitos",
-        "SLA DESEJADO": "1"
+        "SLA_DESEJADO": "1"
     },
     {
         "Area": "ADMINISTRAÇÃO",
         "Categoria": "Categoria 1",
-        "Serviços": "Pastas",
-        "Classificação": "Conceder acesso a unidade(pasta) de rede",
+        "Servicos": "Pastas",
+        "Classificacao": "Conceder acesso a unidade(pasta) de rede",
         "Requisitos": "Informe o motivo.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "ADMINISTRAÇÃO",
         "Categoria": "Categoria 1",
-        "Serviços": "Pastas",
-        "Classificação": "Outros",
+        "Servicos": "Pastas",
+        "Classificacao": "Outros",
         "Requisitos": "Informe sua necessidade com a maior quantidade de detalhes possíveis.",
-        "SLA DESEJADO": "8"
+        "SLA_DESEJADO": "8"
     },
     {
         "Area": "ADMINISTRAÇÃO",
         "Categoria": "Categoria 1",
-        "Serviços": "E-mail",
-        "Classificação": "Criação de conta office 365",
+        "Servicos": "E-mail",
+        "Classificacao": "Criação de conta office 365",
         "Requisitos": "Informe os dados: Nome, Sobrenome.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "ADMINISTRAÇÃO",
         "Categoria": "Categoria 1",
-        "Serviços": "E-mail",
-        "Classificação": "Configurar caixa de e-mail compartilhada",
+        "Servicos": "E-mail",
+        "Classificacao": "Configurar caixa de e-mail compartilhada",
         "Requisitos": "Informe a necessidade e o motivo.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "ADMINISTRAÇÃO",
         "Categoria": "Categoria 2",
-        "Serviços": "Dados de Clientes",
-        "Classificação": "Compartilhar Acesso - LastPass",
+        "Servicos": "Dados de Clientes",
+        "Classificacao": "Compartilhar Acesso - LastPass",
         "Requisitos": "Informar o projeto que está trabalhando e uma estimativa de duração.",
-        "SLA DESEJADO": "1"
+        "SLA_DESEJADO": "1"
     },
     {
         "Area": "ADMINISTRAÇÃO",
         "Categoria": "Categoria 2",
-        "Serviços": "Dados de Clientes",
-        "Classificação": "Remover Acesso  - LastPass",
+        "Servicos": "Dados de Clientes",
+        "Classificacao": "Remover Acesso  - LastPass",
         "Requisitos": "Sem requisitos",
-        "SLA DESEJADO": "1"
+        "SLA_DESEJADO": "1"
     },
     {
         "Area": "ADMINISTRAÇÃO",
         "Categoria": "Categoria 2",
-        "Serviços": "Pastas",
-        "Classificação": "Conceder acesso a unidade(pasta) de rede",
+        "Servicos": "Pastas",
+        "Classificacao": "Conceder acesso a unidade(pasta) de rede",
         "Requisitos": "Informe o motivo.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "ADMINISTRAÇÃO",
         "Categoria": "Categoria 2",
-        "Serviços": "Pastas",
-        "Classificação": "Outros",
+        "Servicos": "Pastas",
+        "Classificacao": "Outros",
         "Requisitos": "Informe sua necessidade com a maior quantidade de detalhes possíveis.",
-        "SLA DESEJADO": "8"
+        "SLA_DESEJADO": "8"
     },
     {
         "Area": "ADMINISTRAÇÃO",
         "Categoria": "Categoria 2",
-        "Serviços": "E-mail",
-        "Classificação": "Criação de conta office 365",
+        "Servicos": "E-mail",
+        "Classificacao": "Criação de conta office 365",
         "Requisitos": "Informe os dados: Nome, Sobrenome.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "ADMINISTRAÇÃO",
         "Categoria": "Categoria 2",
-        "Serviços": "E-mail",
-        "Classificação": "Configurar caixa de e-mail compartilhada",
+        "Servicos": "E-mail",
+        "Classificacao": "Configurar caixa de e-mail compartilhada",
         "Requisitos": "Informe a necessidade e o motivo.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "ADMINISTRAÇÃO",
         "Categoria": "Categoria 3",
-        "Serviços": "Dados de Clientes",
-        "Classificação": "Compartilhar Acesso - LastPass",
+        "Servicos": "Dados de Clientes",
+        "Classificacao": "Compartilhar Acesso - LastPass",
         "Requisitos": "Informar o projeto que está trabalhando e uma estimativa de duração.",
-        "SLA DESEJADO": "1"
+        "SLA_DESEJADO": "1"
     },
     {
         "Area": "ADMINISTRAÇÃO",
         "Categoria": "Categoria 3",
-        "Serviços": "Dados de Clientes",
-        "Classificação": "Remover Acesso  - LastPass",
+        "Servicos": "Dados de Clientes",
+        "Classificacao": "Remover Acesso  - LastPass",
         "Requisitos": "Sem requisitos",
-        "SLA DESEJADO": "1"
+        "SLA_DESEJADO": "1"
     },
     {
         "Area": "ADMINISTRAÇÃO",
         "Categoria": "Categoria 3",
-        "Serviços": "Pastas",
-        "Classificação": "Conceder acesso a unidade(pasta) de rede",
+        "Servicos": "Pastas",
+        "Classificacao": "Conceder acesso a unidade(pasta) de rede",
         "Requisitos": "Informe o motivo.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "ADMINISTRAÇÃO",
         "Categoria": "Categoria 3",
-        "Serviços": "Pastas",
-        "Classificação": "Outros",
+        "Servicos": "Pastas",
+        "Classificacao": "Outros",
         "Requisitos": "Informe sua necessidade com a maior quantidade de detalhes possíveis.",
-        "SLA DESEJADO": "8"
+        "SLA_DESEJADO": "8"
     },
     {
         "Area": "ADMINISTRAÇÃO",
         "Categoria": "Categoria 3",
-        "Serviços": "E-mail",
-        "Classificação": "Criação de conta office 365",
+        "Servicos": "E-mail",
+        "Classificacao": "Criação de conta office 365",
         "Requisitos": "Informe os dados: Nome, Sobrenome.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     },
     {
         "Area": "ADMINISTRAÇÃO",
         "Categoria": "Categoria 3",
-        "Serviços": "E-mail",
-        "Classificação": "Configurar caixa de e-mail compartilhada",
+        "Servicos": "E-mail",
+        "Classificacao": "Configurar caixa de e-mail compartilhada",
         "Requisitos": "Informe a necessidade e o motivo.",
-        "SLA DESEJADO": "4"
+        "SLA_DESEJADO": "4"
     }
 ]
