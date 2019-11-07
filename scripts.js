@@ -59,6 +59,10 @@ function MontarDropdownArea() {
         $("#drpClassificacao option").remove();
         BuscarCategorias();
     });
+    
+    $("select").change(()=>{
+        ExibirSLA();
+    });
 }
 
 function BuscarCategorias() {
@@ -130,13 +134,10 @@ function MontarDropdownClassificacao() {
         let optionItem = "<option>" + option + "</option>";
         $("#drpClassificacao").append(optionItem);
     });
-
-    $("#drpClassificacao").change(() => {
-        ExibirSLA();
-    })
 }
 
 function ExibirSLA() {
+    $("#slaDesejado").text("");
     itensSla.forEach(item => {
         if ($("#drpArea").val() === item.Area && $("#drpCategoria").val() === item.Categoria && $("#drpServico").val() === item.Servicos && $("#drpClassificacao").val() === item.Classificacao) {
             $("#slaDesejado").text(item.SLA_DESEJADO);
