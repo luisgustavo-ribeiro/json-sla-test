@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Requisições</title>
+
+    <link rel="stylesheet"
+        href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/10.0.0/css/fabric.min.css" />
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body class="ms-Fabric" dir="ltr">
+    <header>
+        <div class="img-container">
+            <img src="logo.png" alt="logo-trentim">
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="page-title">
+                requisições
+            </div>
+            <div class="section-top">
+                <div class="ms-Grid-row">
+                    <div class="ms-Grid-col ms-sm6 ms-md4 ms-lg3">
+                        <div class="form-group">
+                            <label for="drpArea">Area</label>
+                            <div class="select-group">
+                                <select class="ms-input" id="drpArea"></select>
+                                <i class="ms-Icon ms-Icon--ChevronDown" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ms-Grid-col ms-sm6 ms-md4 ms-lg3">
+                        <div class="form-group">
+                            <label for="drpCategoria">Categoria</label>
+                            <div class="select-group">
+                                <select class="ms-input" id="drpCategoria"></select>
+                                <i class="ms-Icon ms-Icon--ChevronDown" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ms-Grid-col ms-sm6 ms-md4 ms-lg3">
+                        <div class="form-group">
+                            <label for="drpServico">Serviço</label>
+                            <div class="select-group">
+                                <select class="ms-input" id="drpServico"></select>
+                                <i class="ms-Icon ms-Icon--ChevronDown" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ms-Grid-col ms-sm6 ms-md4 ms-lg3">
+                        <div class="form-group">
+                            <label for="drpClassificacao">Classificação</label>
+                            <div class="select-group">
+                                <select class="ms-input" id="drpClassificacao"></select>
+                                <i class="ms-Icon ms-Icon--ChevronDown" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ms-Grid-row">
+                <div class="ms-Grid-col ms-sm6 ms-md4 ms-lg3">
+                    <div class="form-group">
+                        <label for="txtRequisito">Requisito</label>
+                        <input class="ms-input" type="text" id="txtRequisito"></input>
+                    </div>
+                </div>
+                <div class="ms-Grid-col ms-sm6 ms-md4 ms-lg3 ms-smPush6">
+                    <div class="sla-container">
+                        SLA Desejado <span id="slaDesejado">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ms-Grid-row">
+                <div class="ms-Grid-col ms-sm12 ms-md12 ms-lg12">
+                    <div class="form-group">
+                        <label for="txtDescricao">Descrição</label>
+                        <textarea class="ms-input" id="txtDescricao" rows="6"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./scripts.js"></script>
+</body>
+
+</html>

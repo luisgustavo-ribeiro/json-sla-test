@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700&display=swap&subset=latin-ext');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #35384A;
+    height: 60px;
+    display: flex;
+    padding: 0 5%;
+}
+
+.page-title {
+    text-transform: capitalize;
+    display: flex;
+    margin-left: auto;    
+    font-weight: 300;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 32px;
+    line-height: 1;
+    padding: 20px 0 0;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-container img {
+    height: 40px;
+}
+
+.btn {
+    position: relative;
+    font-size: 14px;
+    font-weight: 400;
+    box-sizing: border-box;
+    height: 32px;
+    border-radius: 2px;
+    outline: transparent;
+    min-width: 80px;
+    padding: 0 16px;
+    display: inline-block;
+}
+
+.btn-default {
+    background-color: #FFF;
+    border: 1px solid #8A8886;
+    background-color: #f3f2f1;
+}
+
+.btn-primary {
+    color: #FFF;
+    background-color: #0078d4;
+    border-color: initial;
+}
+
+.btn-primary:hover {
+    background-color: #106ebe;
+}
+
+.form-group {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 0 0 14px;
+}
+
+.form-group label {
+    font-weight: 600;
+    padding: 5px 0;
+    display: block;
+    font-size: 14px;
+    color: #323130;
+}
+
+.form-group .select-group {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.select-group i {
+    position: absolute;
+    right: 6px;
+    top: 8px;
+    font-size: 16px;
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    padding-left: 8px;
+    padding-right: 28px;
+}
+
+.ms-input {
+    border: 1px solid #8A8886;
+    border-radius: 2px;
+    line-height: 30px;
+    height: 32px;
+    color: #605e5c;
+    width: 100%;
+    padding: 0 8px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+
+.ms-input:hover,
+.select-group:hover {
+    border-color: #000;
+}
+
+.ms-input:focus,
+.select-group:focus {
+    border-color: #0078D4;
+}
+
+.ms-input:focus i,
+.ms-input:active i {
+    color: #0078D4;
+}
+
+textarea.ms-input {
+    line-height: 17px;
+    padding: 6px 8px;
+    height: auto;
+}
+
+.section-top {
+    padding: 20px 0;
+    margin: 0 0 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.sla-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 16px 0;
+}
+
+#slaDesejado {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #eee;
+}
