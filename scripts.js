@@ -122,7 +122,7 @@ function BuscarClassificacao() {
     itensSla.forEach(item => {
         if ($("#drpArea").val() === item.Area && $("#drpCategoria").val() === item.Categoria && $("#drpServico").val() === item.Servicos) {
             classificacao.indexOf(item.Classificacao) === -1 ? classificacao.push(item.Classificacao) : "";
-            slaDesejado.indexOf(item.SLA_DESEJADO) === -1 ? classificacao.push(item.SLA_DESEJADO) : "";
+            slaDesejado.indexOf(item.SLA_DESEJADO) === -1 ? slaDesejado.push(item.SLA_DESEJADO) : "";
         }
     });
 
