@@ -135,6 +135,11 @@ header {
     font-size: 16px;
 }
 
+.ms-input:disabled {
+    background-color: #f3f2f1;
+    border-color: #f3f2f1;    
+}
+
 select.ms-input {
     -moz-appearance: none;
     -webkit-appearance: none;

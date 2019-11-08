@@ -141,6 +141,7 @@ function ExibirSLA() {
     itensSla.forEach(item => {
         if ($("#drpArea").val() === item.Area && $("#drpCategoria").val() === item.Categoria && $("#drpServico").val() === item.Servicos && $("#drpClassificacao").val() === item.Classificacao) {
             $("#slaDesejado").text(item.SLA_DESEJADO);
+            $("#txtRequisito").val(item.Requisitos);
         }
     });
 }
