@@ -5,6 +5,9 @@ let servico = [];
 let classificacao = [];
 let slaDesejado = [];
 
+let requisicao = document.querySelector('#form-requisicao');
+let formData = new FormData(requisicao);
+
 $(window).on('load', () => {
     BuscarDados();
 });
@@ -31,10 +34,7 @@ function BuscarDados() {
 function SepararItensDeSelecao() {
     return new Promise((resolve, reject) => {
         itensSla.forEach(item => {
-            area.indexOf(item.Area) === -1 ? area.push(item.Area) : console.log("o item " + item.Area + " já existe");
-            // categoria.indexOf(item.Categoria) === -1 ? categoria.push(item.Categoria) : console.log("o item " + item.Categoria + " já existe");
-            // servico.indexOf(item.Servicos) === -1 ? servico.push(item.Servicos) : console.log("o item " + item.Servicos + " já existe");
-            // classificacao.indexOf(item.Classificacao) === -1 ? classificacao.push(item.Classificacao) : console.log("o item " + item.Classificacao + " já existe");
+            area.indexOf(item.Area) === -1 ? area.push(item.Area) : '';
         });
 
         resolve();
@@ -59,8 +59,8 @@ function MontarDropdownArea() {
         $("#drpClassificacao option").remove();
         BuscarCategorias();
     });
-    
-    $("select").change(()=>{
+
+    $("select").change(() => {
         ExibirSLA();
     });
 }
@@ -103,11 +103,11 @@ function BuscarServicos() {
 }
 
 function MontarDropdownServicos() {
+
     servico.forEach(option => {
         let optionItem = "<option>" + option + "</option>";
         $("#drpServico").append(optionItem);
     });
-
 
     $("#drpServico").change(() => {
         classificacao = [];
@@ -134,6 +134,8 @@ function MontarDropdownClassificacao() {
         let optionItem = "<option>" + option + "</option>";
         $("#drpClassificacao").append(optionItem);
     });
+
+    ExibirSLA();
 }
 
 function ExibirSLA() {
@@ -144,4 +146,24 @@ function ExibirSLA() {
             $("#txtRequisito").val(item.Requisitos);
         }
     });
+}
+
+function EnviarRequisicao() {
+
+    let object = {};
+
+    formData.forEach((value, key) => {
+        if (!object.hasOwnProperty(key)) {
+            object[key] = value;
+            return;
+        }
+        if (!Array.isArray(object[key])) {
+            object[key] = [object[key]];
+        }
+        object[key].push(value);
+    });
+
+    let json = JSON.stringify(object);
+
+    console.log(json);    
 }

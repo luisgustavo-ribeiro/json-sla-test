@@ -23,79 +23,82 @@
             <div class="page-title">
                 requisições
             </div>
-            <div class="section-top">
+
+            <form id="form-requisicao">
+                <div class="section-top">
+                    <div class="ms-Grid-row">
+                        <div class="ms-Grid-col ms-sm6 ms-md4 ms-lg3">
+                            <div class="form-group">
+                                <label for="drpArea">Area</label>
+                                <div class="select-group">
+                                    <select class="ms-input" id="drpArea" name="Area"></select>
+                                    <i class="ms-Icon ms-Icon--ChevronDown" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ms-Grid-col ms-sm6 ms-md4 ms-lg3">
+                            <div class="form-group">
+                                <label for="drpCategoria">Categoria</label>
+                                <div class="select-group">
+                                    <select class="ms-input" id="drpCategoria" name="Categoria"></select>
+                                    <i class="ms-Icon ms-Icon--ChevronDown" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ms-Grid-col ms-sm6 ms-md4 ms-lg3">
+                            <div class="form-group">
+                                <label for="drpServico">Serviço</label>
+                                <div class="select-group">
+                                    <select class="ms-input" id="drpServico" name="Servico"></select>
+                                    <i class="ms-Icon ms-Icon--ChevronDown" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ms-Grid-col ms-sm6 ms-md4 ms-lg3">
+                            <div class="form-group">
+                                <label for="drpClassificacao">Classificação</label>
+                                <div class="select-group">
+                                    <select class="ms-input" id="drpClassificacao" name="Classificacao"></select>
+                                    <i class="ms-Icon ms-Icon--ChevronDown" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="ms-Grid-row">
-                    <div class="ms-Grid-col ms-sm6 ms-md4 ms-lg3">
+                    <div class="ms-Grid-col ms-sm6 ms-md12 ms-lg9">
                         <div class="form-group">
-                            <label for="drpArea">Area</label>
-                            <div class="select-group">
-                                <select class="ms-input" id="drpArea"></select>
-                                <i class="ms-Icon ms-Icon--ChevronDown" aria-hidden="true"></i>
-                            </div>
+                            <label for="txtRequisito">Requisito</label>
+                            <input class="ms-input" type="text" id="txtRequisito" disabled></input>
                         </div>
                     </div>
-
-                    <div class="ms-Grid-col ms-sm6 ms-md4 ms-lg3">
-                        <div class="form-group">
-                            <label for="drpCategoria">Categoria</label>
-                            <div class="select-group">
-                                <select class="ms-input" id="drpCategoria"></select>
-                                <i class="ms-Icon ms-Icon--ChevronDown" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="ms-Grid-col ms-sm6 ms-md4 ms-lg3">
-                        <div class="form-group">
-                            <label for="drpServico">Serviço</label>
-                            <div class="select-group">
-                                <select class="ms-input" id="drpServico"></select>
-                                <i class="ms-Icon ms-Icon--ChevronDown" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="ms-Grid-col ms-sm6 ms-md4 ms-lg3">
-                        <div class="form-group">
-                            <label for="drpClassificacao">Classificação</label>
-                            <div class="select-group">
-                                <select class="ms-input" id="drpClassificacao"></select>
-                                <i class="ms-Icon ms-Icon--ChevronDown" aria-hidden="true"></i>
-                            </div>
+                    <div class="ms-Grid-col ms-sm6 ms-md12 ms-lg3">
+                        <div class="sla-container">
+                            SLA Desejado <span id="slaDesejado" name="SLADesejado">0</span>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="ms-Grid-row">
-                <div class="ms-Grid-col ms-sm6 ms-md12 ms-lg9">
-                    <div class="form-group">
-                        <label for="txtRequisito">Requisito</label>
-                        <input class="ms-input" type="text" id="txtRequisito" disabled></input>
+                <div class="ms-Grid-row">
+                    <div class="ms-Grid-col ms-sm12 ms-md12 ms-lg12">
+                        <div class="form-group">
+                            <label for="txtDescricao">Descrição</label>
+                            <textarea class="ms-input" id="txtDescricao" rows="6"  name="DescricaoRequisicao"></textarea>
+                        </div>
                     </div>
                 </div>
-                <div class="ms-Grid-col ms-sm6 ms-md12 ms-lg3">
-                    <div class="sla-container">
-                        SLA Desejado <span id="slaDesejado">0</span>
+
+                <div class="ms-Grid-row">
+                    <div class="ms-Grid-col ms-sm12 ms-md12 ms-lg12">
+                        <a href="javascript:void(0)" class="btn btn-primary" onclick="EnviarRequisicao()">Enviar</a>
                     </div>
                 </div>
-            </div>
+            </form>
 
-            <div class="ms-Grid-row">
-                <div class="ms-Grid-col ms-sm12 ms-md12 ms-lg12">
-                    <div class="form-group">
-                        <label for="txtDescricao">Descrição</label>
-                        <textarea class="ms-input" id="txtDescricao" rows="6"></textarea>
-                    </div>
-                </div>
-            </div>
-
-            <div class="ms-Grid-row">
-                <div class="ms-Grid-col ms-sm12 ms-md12 ms-lg12">
-                    <a href="" class="btn btn-primary">Enviar</a>
-                    
-                </div>
-            </div>
 
         </div>
     </main>
