@@ -25,6 +25,7 @@ switch (document.readyState) {
 }
 
 function BuscarDados() {
+    // arquivo da base de dados
     let url = "https://raw.githubusercontent.com/luisgustavo-ribeiro/json-sla-test/master/data.json";
 
     fetch(url)
