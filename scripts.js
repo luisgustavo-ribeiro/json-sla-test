@@ -55,7 +55,6 @@ function BuscarAreas() {
 
 function BuscarCategorias() {
     areaSelecionada = drpArea.options[drpArea.selectedIndex].text;
-
     itensSla.forEach(item => {
         if (areaSelecionada === item.Area) {
             categoria.indexOf(item.Categoria) === -1 ? categoria.push(item.Categoria) : "";
@@ -71,7 +70,6 @@ function BuscarCategorias() {
 
 function BuscarServicos() {
     categoriaSelecionada = drpCategoria.options[drpCategoria.selectedIndex].text;
-
     itensSla.forEach(item => {
         if (areaSelecionada === item.Area && categoriaSelecionada === item.Categoria) {
             servico.indexOf(item.Servicos) === -1 ? servico.push(item.Servicos) : "";
@@ -87,7 +85,6 @@ function BuscarServicos() {
 
 function BuscarClassificacao() {
     servicoSelecionado = drpServico.options[drpServico.selectedIndex].text;
-
     itensSla.forEach(item => {
         if (areaSelecionada === item.Area && categoriaSelecionada === item.Categoria && servicoSelecionado === item.Servicos) {
             classificacao.indexOf(item.Classificacao) === -1 ? classificacao.push(item.Classificacao) : "";
@@ -156,12 +153,10 @@ drpServico.addEventListener('change', () => {
 
 drpClassificacao.addEventListener('change', () => {
     classificacaoSelecionada = drpClassificacao.options[drpClassificacao.selectedIndex].text;
-
     ExibirSLA();
 });
 
 function EnviarRequisicao() {
-
     if (document.querySelector("#solicitante").value != "") {
 
         let form = {
