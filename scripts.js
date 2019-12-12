@@ -102,8 +102,8 @@ function BuscarClassificacao() {
 
 function ExibirSLA() {
     classificacaoSelecionada = drpClassificacao.options[drpClassificacao.selectedIndex].text;
-    document.querySelector("#slaDesejado").innerHTML = "";
-    document.querySelector("#txtRequisito").value = "";
+    document.querySelector("#slaDesejado").innerHTML = "-";
+    document.querySelector("#txtRequisito").value = "-";
 
     itensSla.forEach(item => {
         if (areaSelecionada === item.Area && categoriaSelecionada === item.Categoria && servicoSelecionado === item.Servicos && classificacaoSelecionada === item.Classificacao) {
@@ -158,7 +158,7 @@ drpClassificacao.addEventListener('change', () => {
 });
 
 function EnviarRequisicao() {
-    if (document.querySelector("#solicitante").value != "") {
+    if (document.querySelector("#solicitante").value != "" && document.querySelector("#txtDescricao").value != "") {
 
         let form = {
             Solicitante: document.querySelector("#solicitante").value,
@@ -166,9 +166,9 @@ function EnviarRequisicao() {
             Categoria: categoriaSelecionada,
             Servico: servicoSelecionado,
             Classificacao: classificacaoSelecionada,
-            Requisito: document.querySelector("#txtRequisito").value,
-            SLA: document.querySelector("#slaDesejado").innerText,
-            Descricao: document.querySelector("#txtDescricao").text            
+            Requisito: document.querySelector("#txtRequisito").value != "-" ? document.querySelector("#txtRequisito").value : "Requisito não definido",
+            SLA: document.querySelector("#slaDesejado").innerText != "-" ? document.querySelector("#slaDesejado").innerText : "SLA não definido",
+            Descricao: document.querySelector("#txtDescricao").value
         };
 
         try {
@@ -189,6 +189,6 @@ function EnviarRequisicao() {
         }
 
     } else {
-        alert("Preencha seu email para enviar a solicitação")
+        alert("Email e/ou o Descrição vazio(s) certifique-se que os campos estão preenchidos para enviar a solicitação")
     }
 }
