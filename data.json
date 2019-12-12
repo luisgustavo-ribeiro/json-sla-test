@@ -1,4 +1,761 @@
-﻿[
+[
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Contratação",
+        "Classificacao": "Solicitar contratação de novo colaborador, outros ",
+        "Requisitos": "Informar dados completos do condidado ",
+        "SLA_DESEJADO": "32"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Contratação",
+        "Classificacao": "Solicitar contratação de prestadores de serviços, outros ",
+        "Requisitos": "Informar dados do prestador de serviço e qual serviço será prestado",
+        "SLA_DESEJADO": "32"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Contratação",
+        "Classificacao": "Solicitar contratação de estagiário, outros ",
+        "Requisitos": "Informar dados do estagiário para contratação",
+        "SLA_DESEJADO": "24"
+    },
+    {
+        "Area": "ADM",
+        "Categoria": "RH",
+        "Servicos": "Contratação",
+        "Classificacao": "Outros"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Demissão",
+        "Classificacao": "Solicitar demissão, outros ",
+        "Requisitos": "Informar nome do colaborador a ser desligado e se vai cumprir Aviso Prévio",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Demissão",
+        "Classificacao": "Cancelar demissão, outros",
+        "Requisitos": "Informar nome do colaborador a ser cancelado sua demissão",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Promoção",
+        "Classificacao": "Solicitar promoção para colaborador, outros",
+        "Requisitos": "Informar nome e salário do colaborador a ser promovido",
+        "SLA_DESEJADO": "16"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Salário",
+        "Classificacao": "Solicitar aumento salárial, outros ",
+        "Requisitos": "Informar nome e salário do colaborador que terá aummento salarial ",
+        "SLA_DESEJADO": "16"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Salário",
+        "Classificacao": "Solicitar adiantamento salarial, outros",
+        "Requisitos": "Informar data e valor do adiantamento ",
+        "SLA_DESEJADO": "16"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Salário",
+        "Classificacao": "Solicitar adiantamento de 13º salário, outros",
+        "Requisitos": "Informar data do adiantamento do 13º salário",
+        "SLA_DESEJADO": "16"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Sodexo",
+        "Classificacao": "Solicitar sodexo, outros ",
+        "Requisitos": "Informar nome do colaborador e valor do beneficio",
+        "SLA_DESEJADO": "40"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Sodexo",
+        "Classificacao": "Cancelar sodexo, outros ",
+        "Requisitos": "Informar nome do colaborador que será cancelado  ",
+        "SLA_DESEJADO": "40"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Sodexo",
+        "Classificacao": "Solicitar mudança de beneficio, outros",
+        "Requisitos": "Informar qual beneficio desejado V.R ou V.A",
+        "SLA_DESEJADO": "40"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Sodexo",
+        "Classificacao": "Solicitar mudança de valor do beneficio, outros ",
+        "Requisitos": "Informar nome do colaborador, valor a ser atualizado do beneficio",
+        "SLA_DESEJADO": "40"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Sodexo",
+        "Classificacao": "Solicitar desbloqueio de cartão, outros",
+        "Requisitos": "Informar dados do cartão e dados pessoal para desbloquieo ",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Férias",
+        "Classificacao": "Solicitar Férias, outros",
+        "Requisitos": "Informar quantidade de dias e data exata para inicio das férias ",
+        "SLA_DESEJADO": "16"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Férias",
+        "Classificacao": "Solicitar antecipação de férias, outros",
+        "Requisitos": "Informar data e quantidade de dias desejado",
+        "SLA_DESEJADO": "16"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Férias",
+        "Classificacao": "Cancelar férias, outros",
+        "Requisitos": "Informar qual colaborador será cancelado suas férias ",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Licença ",
+        "Classificacao": "Solicitar licença, outros",
+        "Requisitos": "Informar quantidade de dias e data exata para inicio da licença ",
+        "SLA_DESEJADO": "16"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Licença ",
+        "Classificacao": "Informar atraso de sua jornada, outros",
+        "Requisitos": "Informar motivo do atraso e hora aproximada de chegada",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Licença ",
+        "Classificacao": "Solicitar saida antes do termino da jornada, outros",
+        "Requisitos": "Informar horário e motivo (avisar 1 dia de antecedência)",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Holerite",
+        "Classificacao": "Solicitar 2ª via de holerite, outros",
+        "Requisitos": "Informar motivo da 2ª via e mês referente a solicitação",
+        "SLA_DESEJADO": "16"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Holerite",
+        "Classificacao": "Tirar duvidas sobre o holerite, outros",
+        "Requisitos": "Informar, descrever suas duvidas e apresentar holerite ",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Carteira de trabalho",
+        "Classificacao": "Tirar duvidas sobre registro na carteira de trabalho, outros ",
+        "Requisitos": "Informar, descrever suas duvidas e apresentar carteira de trabalho ",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Banco de horas",
+        "Classificacao": "Quantidade de horas para (Banco de horas) ",
+        "Requisitos": "Informar quntidade de horas e nome de quem autorizou trabalho extra",
+        "SLA_DESEJADO": "16"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Banco de horas",
+        "Classificacao": "Solicitar horas de descanso do banco de horas, outros",
+        "Requisitos": "Informar data exata para descanso do banco de horas ",
+        "SLA_DESEJADO": "16"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "R.H",
+        "Servicos": "Beneficios",
+        "Classificacao": "Solicitar beneficios para colaboradores, outros",
+        "Requisitos": "Informar tipo de beneficio e qual colaborador terá direito a esse beneficio",
+        "SLA_DESEJADO": "24"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "A.D.M",
+        "Servicos": "Documentos",
+        "Classificacao": "Solicitar documentos, outros",
+        "Requisitos": "Informar qual documento desejado ",
+        "SLA_DESEJADO": "16"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "A.D.M",
+        "Servicos": "Documentos",
+        "Classificacao": "Solicitar envio de documentos, outros",
+        "Requisitos": "Informar qual documento e cliente a ser enviado ",
+        "SLA_DESEJADO": "16"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "A.D.M",
+        "Servicos": "Documentos",
+        "Classificacao": "Emissão de documentos, outros",
+        "Requisitos": "Informar tipo de documentos a serem emitidos ",
+        "SLA_DESEJADO": "40"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "A.D.M",
+        "Servicos": "Documentos",
+        "Classificacao": "Imprimir documentos, outros",
+        "Requisitos": "Informar qual documentos e quantidade de vias a imprimir ",
+        "SLA_DESEJADO": "40"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "A.D.M",
+        "Servicos": "Documentos",
+        "Classificacao": "Solicitar documento para reconhecer assinatura por semelhança, outros",
+        "Requisitos": "Informar qual documento e quais assinaturas para reconhecimento",
+        "SLA_DESEJADO": "16"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "A.D.M",
+        "Servicos": "Material de consumo",
+        "Classificacao": "Solicitar compra de material de consumo, outros ",
+        "Requisitos": "Informar descrição de material de comsumo para compra",
+        "SLA_DESEJADO": "24"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "A.D.M",
+        "Servicos": "Material de consumo",
+        "Classificacao": "Solicitar distribuição do material de consumo, outros",
+        "Requisitos": "Informar qual material de consumo será feita a distribuição",
+        "SLA_DESEJADO": "16"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "A.D.M",
+        "Servicos": "Comunicados",
+        "Classificacao": "Solicitar elaboração de comunicados, outros",
+        "Requisitos": "Informar que tipo de comunicação será feita ",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "A.D.M",
+        "Servicos": "Formulários",
+        "Classificacao": "Solicitar preenchimento de formulário, outros",
+        "Requisitos": "Informar qual formulário será preenchido",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "A.D.M",
+        "Servicos": "Banco ",
+        "Classificacao": "Solicitar abertura de conta no banco, outros",
+        "Requisitos": "Informar nome e dados do colaborador para iniciar abertura de conta no banco ",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "A.D.M",
+        "Servicos": "Banco",
+        "Classificacao": "Solicitar desbloqueio de cartão, outros",
+        "Requisitos": "Informar dados do cartão e dados pessoal para desbloquieo ",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "A.D.M",
+        "Categoria": "A.D.M",
+        "Servicos": "Banco",
+        "Classificacao": "Solicitar protabilidade de banco, outros",
+        "Requisitos": "Informar dados do banco que pretende fazer a portabilidade",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "COMPRAS",
+        "Servicos": "Material para escritório",
+        "Classificacao": "Solicitar Comprar",
+        "Requisitos": "Se o artigo for tecnologico, a necessidade deve ser aprovada pela área tecnica",
+        "SLA_DESEJADO": "32"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "COMPRAS",
+        "Servicos": "Material para escritório",
+        "Classificacao": "Solicitar devolução",
+        "Requisitos": "A área técnica deve primeiro analisar e informar o motivo",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "REEMBOLSO",
+        "Servicos": "Acima de R$1.000,00",
+        "Classificacao": "Pedido de reembolso",
+        "Requisitos": "Entregar todas as notas fiscais originais.",
+        "SLA_DESEJADO": "4"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "REEMBOLSO",
+        "Servicos": "Abaixo de R$1.000,00",
+        "Classificacao": "Pedido de reembolso",
+        "Requisitos": "Entregar todas as notas fiscais originais.",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "FISCAL",
+        "Servicos": "Nota fiscal",
+        "Classificacao": "Cadastrar um Cliente",
+        "Requisitos": "Razão Social, CNPJ, Inscrição Estadual, Endereço, Cep.",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "FISCAL",
+        "Servicos": "Nota fiscal",
+        "Classificacao": "Cadastrar um Produto",
+        "Requisitos": "Nome do produto, Valor, Serviço municipal (opções fixas), Discriminação do serviço",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "FISCAL",
+        "Servicos": "Nota fiscal",
+        "Classificacao": "Cancelar NF",
+        "Requisitos": "Número da NF - autorização do setor responsável",
+        "SLA_DESEJADO": "4"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "FISCAL",
+        "Servicos": "Nota fiscal",
+        "Classificacao": "Emitir NF",
+        "Requisitos": "Cliente cadastrado, Produto cadastrado, Email para envio da nota",
+        "SLA_DESEJADO": "16"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "FISCAL",
+        "Servicos": "Nota fiscal",
+        "Classificacao": "Outros"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "A PAGAR",
+        "Servicos": "Pagamentos",
+        "Classificacao": "Cadastrar favorecido ",
+        "Requisitos": "Nome, CPF/CNPJ, Banco, Agência, Conta Corrente",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "A PAGAR",
+        "Servicos": "Pagamentos",
+        "Classificacao": "Efetuar Transferência para pagamento de produto/serviço",
+        "Requisitos": "Favorecido Cadastrado, valor de transferência, autorização do setor responsável",
+        "SLA_DESEJADO": "16"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "A PAGAR",
+        "Servicos": "Pagamentos",
+        "Classificacao": "Pagar/ agendar boleto",
+        "Requisitos": "Boleto - arquivo pdf, autorização do setor responsável"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "A PAGAR",
+        "Servicos": "Pagamentos",
+        "Classificacao": "Solicitação de comprovante de pagamento",
+        "Requisitos": "Dados a serem verificados - data provável do pagamento"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "A PAGAR",
+        "Servicos": "Pagamentos",
+        "Classificacao": "Outros"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "A RECEBER",
+        "Servicos": "Boletos ",
+        "Classificacao": "Cancelar Boleto",
+        "Requisitos": "Boleto a ser cancelado"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "A RECEBER",
+        "Servicos": "Boletos ",
+        "Classificacao": "Emitir Boleto",
+        "Requisitos": "Nome, CPF/CNPJ, Cep, Endereço, valor, vencimento"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "A RECEBER",
+        "Servicos": "Boletos ",
+        "Classificacao": "Verificar status  do boleto",
+        "Requisitos": "Data do vencimento, Pagador e valor"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "A RECEBER",
+        "Servicos": "Transferências",
+        "Classificacao": "Verificar status  de transferências",
+        "Requisitos": "Dados a serem verificados - data provável do pagamento"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "A RECEBER",
+        "Servicos": "Outros",
+        "Classificacao": "Outros"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "ADM",
+        "Servicos": "Reembolsos",
+        "Classificacao": "Solicitar pagamento de reembolso",
+        "Requisitos": "Cadastrar NF e Recibos para reembolso, apontar a qual projeto está relacionado"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "ADM",
+        "Servicos": "Reembolsos",
+        "Classificacao": "Outros"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "ADM",
+        "Servicos": "Salários",
+        "Classificacao": "Adicionar funcionário",
+        "Requisitos": "Nome completo, agência e conta corrente do Itaú "
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "ADM",
+        "Servicos": "Salários",
+        "Classificacao": "Agendar pagamentos",
+        "Requisitos": "Holerites"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "ADM",
+        "Servicos": "Salários",
+        "Classificacao": "Excluir funcionário",
+        "Requisitos": "Nome completo "
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "ADM",
+        "Servicos": "Salários",
+        "Classificacao": "Outros"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "COMPRAS",
+        "Servicos": "Material para escritório",
+        "Classificacao": "Solicitar compra ",
+        "Requisitos": "Especificações"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "COMPRAS",
+        "Servicos": "Alimentos",
+        "Classificacao": "Solicitar compra ",
+        "Requisitos": "Especificações"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "COMPRAS",
+        "Servicos": "Material limpeza e Higiene",
+        "Classificacao": "Solicitar compra ",
+        "Requisitos": "Especificações"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "COMPRAS",
+        "Servicos": "Equipamentos",
+        "Classificacao": "Solicitar compra ",
+        "Requisitos": "Especificações"
+    },
+    {
+        "Area": "FINANCEIRO",
+        "Categoria": "COMPRAS",
+        "Servicos": "Serviço",
+        "Classificacao": "Solicitar contratação",
+        "Requisitos": "Especificações"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "E-mail",
+        "Servicos": "Outlook",
+        "Classificacao": "Reset de senha",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "2"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "E-mail",
+        "Servicos": "Outlook",
+        "Classificacao": "Renomear endereço de e-mail",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "4"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "E-mail",
+        "Servicos": "Outlook",
+        "Classificacao": "Excluir endereço de e-mail",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "16"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "E-mail",
+        "Servicos": "Outlook",
+        "Classificacao": "Arquivamento(arquivo morto)",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "E-mail",
+        "Servicos": "Outlook",
+        "Classificacao": "Configurar outra caixa postal",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "16"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "E-mail",
+        "Servicos": "Outlook",
+        "Classificacao": "Configurar email no celular",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "E-mail",
+        "Servicos": "Outlook",
+        "Classificacao": "Erros de envio/recebimento",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "E-mail",
+        "Servicos": "Outlook",
+        "Classificacao": "Spam",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "E-mail",
+        "Servicos": "Outlook",
+        "Classificacao": "Configuração de assinatura",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "16"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "E-mail",
+        "Servicos": "Outlook",
+        "Classificacao": "Recuperação de PST",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "16"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "E-mail",
+        "Servicos": "Outlook",
+        "Classificacao": "Redirecionamento de email´s",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "4"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "E-mail",
+        "Servicos": "Outlook",
+        "Classificacao": "Aviso de férias",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "E-mail",
+        "Servicos": "Outlook",
+        "Classificacao": "Geração de senha de aplicativo MFA",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "24"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "E-mail",
+        "Servicos": "Outlook",
+        "Classificacao": "Outros",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "16"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "Acessos",
+        "Servicos": "Dados de Clientes",
+        "Classificacao": "Compartilhar Acesso - LastPass",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "16"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "Acessos",
+        "Servicos": "Dados de Clientes",
+        "Classificacao": "Remover Acesso  - LastPass",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "1"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "Acessos",
+        "Servicos": "AD (Rede)",
+        "Classificacao": "Criação",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "1"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "Acessos",
+        "Servicos": "AD (Rede)",
+        "Classificacao": "Revogação",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "1"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "Acessos",
+        "Servicos": "AD (Rede)",
+        "Classificacao": "Outros",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "1"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "Acessos",
+        "Servicos": "Pastas",
+        "Classificacao": "Conceder acesso a unidade(pasta) de rede",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "Acessos",
+        "Servicos": "Pastas",
+        "Classificacao": "Outros",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "4"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "Acessos",
+        "Servicos": "E-mail",
+        "Classificacao": "Criação de conta office 365",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "Acessos",
+        "Servicos": "E-mail",
+        "Classificacao": "Configurar caixa de e-mail compartilhada",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "4"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "Acessos",
+        "Servicos": "E-mail",
+        "Classificacao": "Acesso do e-mail corporativo no celular",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "4"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "Acessos",
+        "Servicos": "E-mail",
+        "Classificacao": "Alteração de grupo de e-mail",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "Acessos",
+        "Servicos": "E-mail",
+        "Classificacao": "Outros",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "Acessos",
+        "Servicos": "Azure DevOps",
+        "Classificacao": "Criação de usuário",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "16"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "Acessos",
+        "Servicos": "Azure DevOps",
+        "Classificacao": "Liberar acesso a um projeto",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "8"
+    },
+    {
+        "Area": "SUPORTE",
+        "Categoria": "Acessos",
+        "Servicos": "Azure DevOps",
+        "Classificacao": "Retirar acesso a um projeto",
+        "Requisitos": "Preencha com detalhes a sua solicitação",
+        "SLA_DESEJADO": "8"
+    },
     {
         "Area": "A.D.M",
         "Categoria": "R.H",
