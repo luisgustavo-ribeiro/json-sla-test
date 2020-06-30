@@ -1294,9 +1294,10 @@
 	},
 	{
 		"Area": "MARKETING",
-		"Categoria": "outros",
-		"Servicos": "outros",
+		"Categoria": "Outros",
+		"Servicos": "Outros",
       "Classificacao": "Outros",
-      "Requisitos": "Preencha com detalhes a sua solicitação"
+      "Requisitos": "Preencha com detalhes a sua solicitação",
+      "SLA_DESEJADO": ""
 	}
 ]
