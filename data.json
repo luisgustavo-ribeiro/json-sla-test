@@ -814,6 +814,22 @@
 	},
 	{
 		"Area": "SUPORTE",
+		"Categoria": "Acessos",
+		"Servicos": "Outros",
+		"Classificacao": "Outros",
+		"Requisitos": "Preencha com detalhes a sua solicitação",
+		"SLA_DESEJADO": "8"
+	},
+	{
+		"Area": "SUPORTE",
+		"Categoria": "Freshdesk",
+		"Servicos": "Melhoria de Catálogo",
+		"Classificacao": "Outros",
+		"Requisitos": "Preencha com detalhes a sua solicitação",
+		"SLA_DESEJADO": "16"
+	},
+	{
+		"Area": "SUPORTE",
 		"Categoria": "Hardware",
 		"Servicos": "Desktop",
 		"Classificacao": "Configurar",
