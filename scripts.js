@@ -5,10 +5,10 @@ let servico = [];
 let classificacao = [];
 let slaDesejado = [];
 
-let drpArea = document.querySelector("#drpArea");
-let drpCategoria = document.querySelector("#drpCategoria");
-let drpServico = document.querySelector("#drpServico");
-let drpClassificacao = document.querySelector("#drpClassificacao");
+const drpArea = document.querySelector("#drpArea");
+const drpCategoria = document.querySelector("#drpCategoria");
+const drpServico = document.querySelector("#drpServico");
+const drpClassificacao = document.querySelector("#drpClassificacao");
 
 let areaSelecionada;
 let categoriaSelecionada;
@@ -47,8 +47,8 @@ function BuscarAreas() {
         area.indexOf(item.Area) === -1 ? area.push(item.Area) : "";
     });
 
-    area.forEach(area => {
-        drpArea.options.add(new Option(area, ""));
+    area.forEach((area, index) => {
+        drpArea.options.add(new Option(area, index));
     });
 
     BuscarCategorias();
@@ -158,6 +158,7 @@ drpClassificacao.addEventListener('change', () => {
 });
 
 function EnviarRequisicao() {
+
     if (document.querySelector("#solicitante").value != "" && document.querySelector("#txtDescricao").value != "") {
 
         let form = {
@@ -181,14 +182,27 @@ function EnviarRequisicao() {
                 body: JSON.stringify(form)
             });
 
-            alert("Solicitação enviada com sucesso!");
+            document.querySelector('.dialog').classList.add('open');
+            document.querySelector('.success').classList.add('open');
 
         } catch (error) {
-            alert("Ops, algo deu errado! Tente novamente")
+            document.querySelector('.dialog').classList.add('open');
+            document.querySelector('.error').classList.add('open');
             console.log(error);
         }
 
     } else {
         alert("Email e/ou o Descrição vazio(s) certifique-se que os campos estão preenchidos para enviar a solicitação")
     }
+}
+
+function CloseDialog() {
+  document.querySelectorAll('.open').forEach(item => item.classList.remove('open'));
+  
+  drpArea.value = 0;
+  drpArea.dispatchEvent(new Event('change'));
+
+  document.querySelector("#solicitante").value = '';
+  document.querySelector("#txtDescricao").value = '';
+
 }

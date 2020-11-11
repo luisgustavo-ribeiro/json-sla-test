@@ -103,17 +103,29 @@
 
                 <div class="ms-Grid-row">
                     <div class="ms-Grid-col ms-sm12 ms-md12 ms-lg12">
-                        <a href="javascript:void(0)" class="btn btn-primary" onclick="EnviarRequisicao()">Enviar</a>
+                      <a href="javascript:void(0)" class="btn btn-primary" onclick="EnviarRequisicao()">Enviar</a>
                     </div>
                 </div>
             </form>
-
-
         </div>
     </main>
-    <footer></footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <div class="dialog">
+      <div class="dialog-box">
+        <div class="success">
+          <div class="dialog-title">Sucesso!</div>
+          <div class="dialog-text">Sua solicitação foi enviada, em breve você receberá um email do Suporte</div>
+          <a href="javascript:void(0)" class="btn btn-primary" onclick="CloseDialog()">Fechar</a>
+        </div>
+
+        <div class="error">
+          <div class="dialog-title">Ops!</div>
+          <div class="dialog-text">Algo deu errado, tente novamente em alguns minutos</div>
+          <a href="javascript:void(0)" class="btn btn-primary" onclick="CloseDialog()">Fechar</a>
+        </div>
+      </div>
+    </div>
+    
     <script src="./scripts.js"></script>
 </body>
 
